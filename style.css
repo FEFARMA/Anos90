@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 1200px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+           
+}
+
+h1{
+    font-size: 50px;
+    font-style: black;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.texto p{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.inputs{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content:space-between;
+    margin: 10px 0;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border-style: none;
+ }
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.imagem{
+    height: 150PX;
+    width: 150PX;
+    margin-left: 500PX;
+    margin-bottom: 200px;
+    
+}
+
+.botaoLogin{
+    margin-top: 20px;
+    height: 20px;
+    cursor: pointer;
+    width: 80px;
+    color:black;
+    border-style:groove;
+    border-radius: 5px;
+    
+}
+
+.button{
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+footer{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+}
